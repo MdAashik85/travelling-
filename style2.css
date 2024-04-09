@@ -1,0 +1,143 @@
+.wrd
+{
+    position:relative;
+    height:60px;
+    width:130px;
+    right:12%;
+}
+.roundimage
+{
+    z-index: 1;
+    position:relative;
+    top:6px;
+    left:140px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.nav2
+{
+    display: flex;
+    justify-content: space-around;
+}       
+nav ul li a {
+    color:rgb(112, 109, 109);
+    text-decoration:none;
+    font-size: 20px;
+}
+li
+{
+    padding: 5px;
+    border-bottom: 2px solid #dddada;
+}
+li:hover
+{
+    border-bottom: 3px solid grey;
+    transition: 0.5s ease-in-out;
+}
+ul
+{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.moun2
+{
+    background-repeat: no-repeat;
+    height:100vh;
+    width:100%;
+    position:relative;
+}
+.h1
+{
+    margin-left: 22%;
+    position: relative;
+    bottom:730px;
+    font-size:120px;
+    color: grey;
+}
+.h3
+{
+    margin-left: 31%;
+    position: relative;
+    bottom:895px;
+    color: rgb(82, 81, 81);
+}
+.p
+{
+    margin-left: 28%;
+    margin-right: 20%;
+    position: relative;
+    bottom:890px;
+}
+.whole
+{
+    background-color: rgb(121, 121, 160);
+    position: relative;
+    top:-660px;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.mySlides {
+    display: none;
+   transition: all 0.5s ease;
+}
+.mySlides:nth-child(1) {
+    display: block;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.grid-item {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+.dot-container {
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.dot:hover {
+    background-color: #717171;
+}
+.fade {
+    animation: fade 8s infinite;
+}
+@keyframes fade {
+    0%, 100% {
+        opacity: 2;
+    }
+    20%{
+        opacity: 1;
+    }
+}
